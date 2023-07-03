@@ -627,3 +627,23 @@ body {
 	background-position: -25px -107px;
 }
 
+	@media screen (max-width: 600px) {
+		body {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		}
+		
+}
+
+@media screen (max-width: 400px) {
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+
+
+	
+}
+}
